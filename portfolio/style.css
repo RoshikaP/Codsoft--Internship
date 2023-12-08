@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+.section-1{
+    height: 100vh;
+    width: 100%;
+    background: black;
+    position: relative;
+    padding: 20px 100px;
+    color: #ddd;
+}
+.section-1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.section-1 nav .logo{
+    font-size: 32px;
+    color: red;
+
+}
+.section-1 nav .logo .bloom{
+    color: purple;
+}
+.section-1 nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.section-1 nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.section-1 nav ul li  a:hover{
+    color: #dc143c;
+    background: lightskyblue;
+}
+.section-1 nav ul li .log-in{
+    border: 1px solid #dc143c;
+    color: #dc143c;
+}
+.section-1 nav ul li .log-in:hover{
+    color: #fff;
+    background: violet;
+}
+.section-1 .container-1{
+    dispalay: flex;
+    justify-content: space-between;
+}
+.section-1 .container-1 .contains-1 {
+    margin-top: 80px;
+    position: absolute;
+
+}
+.section-1 .container-1 .contains-1 h1{
+    font-size: 60px;
+}
+.section-1 .container-1 .contains-2 img{
+    width: 500px;
+    
+    transform: translate(580px,100px);
+    
+    overflow: hidden;
+}
+.section-1 .container-1 .box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10;
+    padding-left: 0;
+    box-sizing: border-box;
+    margin-top: -20px;
+   
+    
+}
+
+
+
+.section-1 .container-1 .about-section {
+    margin-top: 290px; /* Adjust the margin as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    
+    border: 1px solid #ddd; /* Add a border if desired */
+    background: linear-gradient(to right, lightpink, lightblue);
+    color: black;
+    
+    
+   
+    margin-left: 20px;
+    box-sizing: border-box;
+   
+   
+}
+
+.section-1 .container-1 .Projects{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: black;
+}
+.section-1 .container-1 .Projects h1{
+    color:white;
+}
+.section-1 .container-1 .Projects .row{
+    display: flex;
+    
+}
+
+.section-1 .container-1 .Projects .row .boxx{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 20px;
+    background:linear-gradient(to right, #ff7e5f 0%, #53b3cb 100%);
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: #53b3cb;
+}
+.section-1 .container-1 .Projects .row .boxx p{
+    margin-top: 30px ;
+}
+.section-1 .container-1 .Projects .row .boxx:hover{
+    background:linear-gradient(to right, #ff7e5f 0%, purple 100%);
+}
+   
+.section-1 .container-1 .Contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0x;
+    background: black;
+    margin-top: 60px;
+    
+}
+.section-1 .container-1 .Contact .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.section-1 .container-1 .Contact h1{
+    color: white;
+}
+
+.section-1 .container-1 .Contact .input{
+    padding: 12px;
+    margin: 15px;
+    width: 150%;
+    border: none;
+    outline: none;
+
+
+}
+.section-1 .container-1 .Contact .msg{
+    width: 150%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    
+
+}
+.section-1 .container-1 .Contact .send{
+    padding: 10px;
+    width: 70%;
+    margin: 40px;
+    border: none;
+    outline: none;
+
+}
+.section-1 .container-1 .Contact .send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}   
+
+
