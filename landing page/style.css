@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+}
+.section-1{
+    height: 100vh;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+    padding: 20px 100px;
+}
+.section-1 nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-1 nav .logo{
+    font-size: 32px;
+    color: red;
+
+}
+.section-1 nav .logo .bloom{
+    color: purple;
+}
+.section-1 nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.section-1 nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.section-1 nav ul li  a:hover{
+    color: #dc143c;
+}
+.section-1 nav ul li .log-in{
+    border: 1px solid #dc143c;
+    color: #dc143c;
+}
+.section-1 nav ul li .log-in:hover{
+    color: #fff;
+    background: violet;
+}
+.section-1 .container-1{
+    dispalay: flex;
+    justify-content: space-between;
+}
+.section-1 .container-1 .contains-1 {
+    margin-top: 80px;
+    position: absolute;
+
+}
+.section-1 .container-1 .contains-1 h1{
+    font-size: 60px;
+}
+.section-1 .container-1 .contains-2 img{
+    width: 580px;
+    transform: translate(550px,200px);
+    overflow: hidden;
+}
+.section-1 .container-1 .box{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10;
+    padding-left: 0;
+    box-sizing: border-box;
+    margin-top: -20px;
+   
+    
+}
+
+.section-1 .container-1 .box .search {
+    height: 40px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background: #fff;
+    position: relative;
+    text-align: right;
+
+    box-sizing: border-box;
+    margin-top: -20px;
+
+    
+   
+
+
+}
+.section-1 .container-1 .box .search a{
+    font-size: 17px;
+    color: #fff;
+    background: crimson;
+    margin-left: 400px;
+    padding: 10px 20px;
+    
+}
+
+.section-1 .container-1 .about-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 340px;
+ 
+}
+.section-1 .container-1 .about-section .imgg img {
+    max-width: 530px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.section-1 .container-1 .about-section .about h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--text color--);
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+
+.section-1 .container-1 .about-section .about p{
+    line-height: 1.8;
+   
+}
+.section-1 .container-1 .about-section .about .btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: orangered;
+    border-radius: 5px;
+    color: var(--text-color--);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    margin-top: 20px;
+}
+.section-1 .container-1 .about-section .about .btn:hover{
+    transform: scale(0.9);
+    background: black;
+    color: whitesmoke;
+}
+.section-1 .container-1 .about-section .about .box1{
+    display: inline-block;
+    padding: 12px 28px;
+    background: linear-gradient(to right, #feb47b, white);
+    border-radius: 5px;
+    color: var(--text-color--);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .45s ease;
+    margin-top: 20px;
+
+}
+.section-1 .container-1 .about-section .about .brainbloom{
+    color:orangered;
+}
+.section-1 .container-1 .courses{
+    margin-top: 80px;
+}
+.section-1 .container-1 .courses .heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+
+
+} 
+.section-1 .container-1 .courses .heading .course{
+    color: blue;
+}
+.section-1 .container-1 .courses .row{
+    display: flex;
+    
+}
+.section-1 .container-1 .courses .row .slider{
+    width: 30rem;
+    background: linear-gradient(to right, pink, white);
+    border-radius: .1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    height: auto;
+
+}
+.section-1 .container-1 .courses .row .slider:hover{
+    background: cornflowerblue;
+
+}
+.section-1 .container-1 .courses .row .slider img{
+    height: 15rem;
+    width: 100%;
+}
+.section-1 .container-1 .courses .row .slider h3{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: black;
+
+
+}
+.section-1 .container-1 .courses .row .slider p{
+    
+    font-size: 1rem;
+    color: black;
+
+}
+.section-1 .container-1 .review{
+    margin-top:180px;
+}
+
+.section-1 .container-1 .review .roww{
+    display: flex;
+    
+}
+
+
+.section-1 .container-1 .review .roww .boxx{
+    width: 30rem;
+    background: grey;
+    border-radius: .1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    height: auto;
+    color:#fff;
+    
+}
+
+.section-1 .container-1 .review .roww .boxx h3{
+    margin-top: 20px;
+    color: skyblue;
+}
+.section-1 .container-1 .review .roww .boxx .user .rating {
+    unicode-bidi: bidi-override;
+      direction: rtl;
+      font-size: 20px;
+      margin: 10px;
+      margin-top: -10px;
+}
+.section-1 .container-1 .review .roww .boxx .user .rating .star{
+    display: inline-block;
+      margin: 0 1px;
+      transform: rotateY(180deg);
+
+}
+.section-1 .container-1 .review .roww .boxx .user .rating .star:before{
+    content: "\2605"; /* Unicode character for a star */
+    color: gold;
+}
+.section-1 .container-1 .review .heading .rev{
+    color: purple;
+}
+.section-1 .container-1 .review .heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+} 
+
+.section-1 .container-1 .Contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0x;
+    background: black;
+    margin-top: 200px;
+}
+.section-1 .container-1 .Contact .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.section-1 .container-1 .Contact h1{
+    color: white;
+}
+
+.section-1 .container-1 .Contact .input{
+    padding: 12px;
+    margin: 15px;
+    width: 150%;
+    border: none;
+    outline: none;
+
+
+}
+.section-1 .container-1 .Contact .msg{
+    width: 150%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    
+
+}
+.section-1 .container-1 .Contact .send{
+    padding: 10px;
+    width: 70%;
+    margin: 40px;
+    border: none;
+    outline: none;
+
+}
+.section-1 .container-1 .Contact .send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}   
+
+
+
+
+
+
+
+
+
+    
+
+
